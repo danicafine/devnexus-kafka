@@ -96,9 +96,7 @@ CREATE TABLE customers (
     userid STRING PRIMARY KEY,
     registertime BIGINT,
     regionid STRING,
-    gender STRING,
-    interests ARRAY<STRING>,
-    contactinfo MAP<STRING, STRING>
+    gender STRING
 ) WITH (
     KAFKA_TOPIC = 'customers',
     VALUE_FORMAT = 'AVRO'

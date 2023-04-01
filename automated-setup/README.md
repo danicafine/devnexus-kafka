@@ -78,7 +78,8 @@ terraform apply
 ```
 
 ## Set Up ksqlDB Queries
-Now that the resources are provisioned, it's time to run the ksqlDB queries to detect potential fraudulent transactions.     
+
+For the next portion of the workshop, navigate to the [https://confluent.cloud/](Confluent Cloud Dashboard) and navigate to your cluster. On the left-hand menu you'll see a tab for "ksqlDB". Select it and choose the application that was provisioned using the terraform script. Navigate to the editor tab and run the following queries to set up an application to detect fraudulent transactions:       
 
 First, create a stream called "transactions" built on top of the transactions topic.     
 ```

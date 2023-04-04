@@ -4,7 +4,7 @@ The following are instructions for running basic Apache Kafka Python clients and
 
 ## Workshop Instructions 
 
-These workshop instructions assume that you have followed along with the workshop slides (located at `devnexus_workshop_slides.pdf` and have already done the following:
+These workshop instructions assume that you have followed along with the workshop slides (located at `devnexus_workshop_slides.pdf`, to be posted after the workshop) and have already done the following:
 
  - [ ] Created a Confluent Cloud Cluster and set up a cluster API key
  - [ ] Enabled Schema Registry and set up a Schema Registry API key

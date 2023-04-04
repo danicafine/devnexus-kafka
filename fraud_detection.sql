@@ -50,8 +50,8 @@ HAVING COUNT(t_transaction_id) > 4
 EMIT CHANGES;
 
 -- Identify Suspicious Activity Final
-CREATE TABLE transactions_suspicious WITH (   
-  kafka_topic='transactions_suspicious',
+CREATE TABLE transactions_suspicious_final WITH (   
+  kafka_topic='transactions_suspicious_final',
   format='AVRO'
 ) AS 
 SELECT
